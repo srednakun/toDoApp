@@ -1,0 +1,81 @@
+/*author: Sredna Kunowski 7/5/2015*/
+
+body {
+
+    /* Background pattern from subtlepatterns.com */
+    background-image: url("paisley.png");
+    font-family: Verdana;
+}
+
+.mainBox {
+
+  font-size: 0.75em;
+  background-color: #E0E4CC;
+  width:400px; 
+  min-height: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  opacity: 0.5;
+  overflow: auto;
+  max-height: 500px;
+
+}
+
+h1 {
+
+  text-align: center;
+  color: #0B486B;
+  font-size: 36px;
+  
+} 
+
+#theList {
+
+  color: #0B486B;
+  text-align: left;
+  margin-left: 25px;
+  list-style-position: left top;
+  font-size: 16px;
+  overflow: auto;
+  max-height: 300px;
+  cursor: text;
+
+}
+
+#theList:focus {
+  outline: 0;
+
+}
+
+#addNote {
+
+  color: #0B486B;
+  position: fixed;
+  bottom: 10%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  opacity: 0.8;
+  width: 100px;
+  height:35px;
+  cursor: pointer;
+
+}
+
+#save {
+
+  color: #0B486B;
+  position: fixed;
+  bottom: 10%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  opacity: 0.8;
+  width: 100px;
+  height:35px;
+  cursor: pointer;
+
+}
